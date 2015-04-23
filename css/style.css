@@ -1,0 +1,84 @@
+body{
+  margin:0;
+  padding: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+     font-weight: 300;
+}
+#menubar{
+  width:100%;
+  height:40px;
+  background-color: #e0e0e0;
+  border-bottom: 1px solid grey;
+}
+#logo{
+  padding: 5px 0 0 20px;
+  font-size: 120%;
+  float: left;
+  font-weight: bold;
+}
+#buttonDiv{
+  float:right;
+  padding: 5px 10px 0 0;
+}
+
+#toggles{
+  margin:auto;
+  list-style: none;
+  width:13.68%;
+  border:1px solid grey;
+  border-radius: 3px;
+  height:27px;
+  padding: 0;
+  position:relative;
+  top:5px;
+  cursor:context-menu;
+
+}
+#toggles li{
+  float:left;
+  border-right: 1px solid grey;
+  padding: 5px 7px;
+  cursor:context-menu;
+}
+.clear{
+  clear:both;
+}
+.codeContainer{
+  height:100%;
+  width: 50%;
+  float:left;
+  position: relative;
+}
+.codeContainer textarea{
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-right: 1px solid grey;
+  font-family: monotype;
+  font-size: 110%;
+  box-sizing: border-box;
+  padding: 10px;
+
+}
+.codeLabel{
+  position:absolute;
+  right:10px;
+  top:10px;
+  font-weight: bold;
+}
+#CSSContainer{
+  display:none;
+}
+#JSContainer{
+  display:none;
+}
+iframe{
+  height:100%;
+  position:relative;
+  left:20px;
+  border:none;
+  width: 78%;
+}
+.selected{
+  background-color: grey;
+}
